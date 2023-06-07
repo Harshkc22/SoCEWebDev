@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>developer portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			/* background-color: rgb(0,0,33); */
+			font-family: 'Poppins', sans-serif;
+		}
+		nav{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			height: 80px;
+		}
+		nav ul{
+			display: flex;
+			justify-content: center;
+		}
+		nav ul li{
+			list-style: none;
+			margin: 0 23px;
+		}
+		nav ul li a{
+			text-decoration: none;
+			color: black;
+		}
+		nav ul li a:hover{
+			color: blue;
+			font-size: 1.01rem;
+		}
+		.left{
+			font-size: 1.5rem;
+			
+		}
+		.left img{
+			width: 6.5%;
+		}
+		.firstsection{
+			display: flex;
+			justify-content: space-around;
+			margin: 70px 0;
+			align-items: center;
+		}
+		.firstsection > div{
+			width: 30%;
+		}
+		.leftsection{
+			font-size: 2rem;
+			 
+		}
+		.rightsection img{
+			    width: 80%;
+   				
+		}
+		.orange{
+			color: orange;
+		}
+		footer{
+			width: 30%;
+			margin: -120px 0;
+			
+		}
+		.link{
+			width: 23px;
+		}
+		.insta{
+			width: 23px;
+		}
+		.git{
+			width: 23px;
+		}
+		.about{
+			display: flex;
+			height: 46px;
+			margin: 10px 125px;
+		}
+		.about .btn{
+			background: #0707ae;
+			color: white;
+			border: 2px solid white;
+			border-radius: 20px;
+			font-size: 20px;
+		}
+		.social{
+			display: flex;
+			height: 40px;
+			margin: 0 120px
+		}
+		.social ul{
+			display: flex;
+			justify-content: center;
+		}
+		.social ul li{
+			list-style: none;
+			margin: 0 8px;
+		}
+	</style>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="left">
+				<img src="icon.png" alt=""><strong>  Harsh</strong>
+			</div>
+			<div class="right">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/">About</a></li>
+					<li><a href="/">Education</a></li>
+					<li><a href="/">Skills</a></li>
+					<li><a href="/">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+	<section class="firstsection">
+		<div class="leftsection">
+			Hi, My name is <span class="orange">Harsh Kumar Chaudhary</span>
+			<div>and I am a student of IIT Kanpur</div>
+		</div>
+		<div class="rightsection">
+			<img src="bg.png" alt="">
+		</div>
+	</section>	
+	</main>
+	<footer>
+		<div class="about">
+			<button class="btn">About Me</button> 
+		</div>
+		<div class="social">
+		<ul>
+			<li><a href="/"><img class="link" src="linkedin logo.png" alt=""></a></li>
+			<li><a href="/"><img class="insta" src="insta.png" alt=""></a></li>
+			<li><a href="/"><img class="git" src="github.png" alt=""></a></li>
+		</ul>
+		</div>	
+	</footer>
+</body>
+</html>
